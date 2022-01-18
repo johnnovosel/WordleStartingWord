@@ -1,0 +1,11 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "Finds the most common letters in the english alphabet amongst 5 letter words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
