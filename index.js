@@ -23,8 +23,9 @@ textByLine.forEach(string => {
   }
 })
 
+const sortedMap = new Map([...wordMap.entries()].sort((a, b) => b[1] - a[1]));
 
-wordMap.forEach((values,keys) => {
+sortedMap.forEach((values,keys) => {
   var percentage = (100 * values) / totalLetters;
 
   console.log(keys + " | " + Math.round(percentage * 100) / 100 + "%");
