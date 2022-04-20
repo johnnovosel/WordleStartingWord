@@ -1,3 +1,4 @@
 node_modules/
 Wordles.txt
 words.txt
+package-lock.json
